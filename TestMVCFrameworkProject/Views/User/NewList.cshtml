@@ -1,0 +1,22 @@
+﻿@model IEnumerable<TestMVCFrameworkProject.Models.UserClaim>
+
+@{
+    ViewBag.Title = "NewList";
+}
+
+<h2>New List</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+</table>
+
